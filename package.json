@@ -1,0 +1,27 @@
+{
+  "name": "costa-bold-ep-auge",
+  "version": "1.0.0",
+  "description": "\"# costa-bold-ep-auge\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XxWexX5/costa-bold-ep-auge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XxWexX5/costa-bold-ep-auge/issues"
+  },
+  "dependencies": {
+    "gsap": "^3.6.0",
+    "parcel-bundler": "^1.12.4",
+    "splitting": "^1.0.6"
+  },
+  "homepage": "https://github.com/XxWexX5/costa-bold-ep-auge#readme"
+}
