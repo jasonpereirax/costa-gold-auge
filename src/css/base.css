@@ -2459,7 +2459,7 @@ body {
 .main-page .section-002 .video .clip{
 	width: 87%;
 	height: 563px;
-	margin: 19% 0px;
+	margin: 300px 0px 150px 0px;
 
 	
 }
@@ -3117,7 +3117,7 @@ body {
 	position: relative;
     z-index: 1;
 	background-color: #fff;
-	background-size: contain;
+	background-size: cover;
 }
 
 .main-page .section-03 .wrapper-newsletter {
@@ -3599,6 +3599,7 @@ body {
 	position: absolute;
 top: 348px;
 left: 36px;
+z-index: 1;
 }
 
 .wrapper-tag1 {
@@ -3610,6 +3611,24 @@ left: 36px;
     border-radius: 50px;
     color: #000000;
     width: 182px;
+	float: right;
 }
 
 
+.tit_pai{
+	position: absolute;
+    top: 152px;
+}
+
+.cel-video{
+	position: absolute;
+    top: -103px;
+}
+
+
+.esq{ float: left;}
+
+
+.rodape_sobre{
+	display: inline-block;
+}
