@@ -2001,6 +2001,15 @@ body {
 	
 }
 
+.main-page .section-04 {
+	
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #fff;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+}
 
 
 .main-page .section-01 .container::after {
@@ -2830,8 +2839,12 @@ body {
 	z-index: 1;
 }
 
+
 .nog-ilustra-mob{ 
-	display: none;
+	position: absolute;
+	top: -111px;
+    left: 38%;
+	z-index: 1;
 }
 
 .main-page .section-02 .wrapper-artists .row .col {
@@ -3597,7 +3610,7 @@ body {
 
 .wrapper-artists .insta{  
 	position: absolute;
-top: 348px;
+top: 340px;
 left: 36px;
 z-index: 1;
 }
@@ -3632,3 +3645,81 @@ z-index: 1;
 .rodape_sobre{
 	display: inline-block;
 }
+
+.title_sort {
+    font-family: monument;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+
+.main-page .section-01 .block-about-costa-gold .row .col + .col {
+	margin-left: 10px;
+	
+}
+
+.main-page .section-01 .block-about-costa-gold .col-02 {
+	width: 100%;
+}
+
+.section-01 .block-about-costa-gold .col-03 {
+	width: 100%;
+	float: left;
+}
+
+
+
+.section-01 .wrapper-prize-draw .main .wrapper-tag {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CBB663;
+    padding: 8px 35px 8px 20px;
+    border-radius: 50px;
+	color: #000000;
+}
+
+.section-01 .wrapper-prize-draw .main .wrapper-tag .container-image {
+	width: 38px;
+	height: auto;
+	margin-right: 10px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-01 .wrapper-prize-draw .main .wrapper-tag .container-image .image {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.section-01 .wrapper-prize-draw .main .wrapper-tag .text {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.btn_sort {
+    background-color: #E4B715;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 66px;
+    cursor: pointer;
+	margin-top: 20px;
+}
+
+
+.btn_sort .text {
+    color: #000;
+    font-size: 18px;
+    margin-right: 15px;
+    font-family: opensans, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.rod{ float: left;}
